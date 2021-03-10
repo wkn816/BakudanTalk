@@ -30,7 +30,7 @@ export default {
   },
   module() {
     if (this.$store.state.counter.counter % 15 === 0) {
-      console.log("15の倍数");
+      console.log("15の倍数を表示");
     }
     return {
       fizzBuzzStyle: "",
