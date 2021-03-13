@@ -21,7 +21,7 @@ export default {
     async countUp() {
       this.$store.commit("counter/countUp");
       if (this.$store.state.counter.counter % 15 === 0) {
-          this.topic = "出発日を入力してください";
+          this.topic = "hogehoge";
         console.log("15の倍数を表示");
       }
     }
