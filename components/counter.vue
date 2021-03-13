@@ -8,13 +8,11 @@
 </template>
 
 <script>
-// import Topic from "~/components/Topic.vue";
-
 export default {
   data: function() {
     return {
       title : "BakudanTalk",
-      topic : ""
+      topic : "",
     };
   },
   methods: {
@@ -22,9 +20,10 @@ export default {
       this.$store.commit("counter/countUp");
       if (this.$store.state.counter.counter % 15 === 0) {
           this.topic = "hogehoge";
-        console.log("15の倍数を表示");
+          return
+      console.log("15の倍数を表示");
       }
     }
   }
 };
-</script>>
+</script>
