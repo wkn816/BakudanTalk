@@ -1,9 +1,6 @@
 <template>
   <section>
     <h2>{{ topic }}</h2>
-    <button
-      @click="countUp"
-    >+1</button>
   </section>
 </template>
 
