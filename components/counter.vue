@@ -2,8 +2,9 @@
   <section>
     <h2>{{ title }}</h2>
     counter: {{$store.state.counter.counter}}
-    <button @click="countUp">+1</button>
-    <p v-if="topic" class="topic">{{ topic }}</p>
+    <button @click="countUp" class="button">
+        <img :src="image_src1" v-bind="attrs" v-on="on" class="button">
+    </button>
     <img :src="image_src" v-if="topic">
   </section>
 </template>
@@ -14,21 +15,40 @@ export default {
       title : "BakudanTalk",
       topic : "",
       image_src: require("../assets/bakuhatsu.gif"),
+      image_src1: require("../assets/bakudan.png"),
+      test: require("../assets/bakudan.png"),
     };
   },
   methods: {
     async countUp() {
       this.$store.commit("counter/countUp");
       if (this.$store.state.counter.counter % 15 === 0) {
-          this.topic = "hogehoge";
-          return
+        this.topic = "hogehoge";
+        return
       console.log("15の倍数を表示");
+      }
+      else{
+          this.test
       }
     },
   },
+  computed:{
+    test(){
+      return this.$store.state.counter.counter % 15 === 0
+    }
+  }
 
 };
 
 </script>
-<style>
+<style lang="scss">
+.button {
+  width: 50%;
+  &:active {
+    box-shadow: none;
+    transform: translate3d(
+       -6px, 6px, 0
+    );
+  }
+}
 </style>
