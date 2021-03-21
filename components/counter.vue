@@ -28,8 +28,9 @@ export default {
       console.log("15の倍数を表示");
       }
       else{
-          this.test
+        this.test
       }
+              this.$router.push("/");
     },
   },
   computed:{
