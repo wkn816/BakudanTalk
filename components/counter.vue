@@ -23,14 +23,14 @@ export default {
     async countUp() {
       this.$store.commit("counter/countUp");
       if (this.$store.state.counter.counter % 15 === 0) {
-        this.topic = "hogehoge";
-        return
+        // this.topic = "hogehoge";
+        this.$router.push("/Lucky");
+        // return
       console.log("15の倍数を表示");
       }
       else{
         this.test
       }
-              this.$router.push("/");
     },
   },
   computed:{
