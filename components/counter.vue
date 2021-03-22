@@ -5,8 +5,9 @@
     <button @click="countUp" class="button">
       <img :src="image_src1" class="button">
     </button>
-    <!-- <img :src="image_src" v-if="topic"> -->
-    <h1 v-if="fizzbuzz">Vue is awesome!</h1>
+    <!-- <h1 v-if="fizzbuzz">
+    <img :src="image_src">
+    </h1> -->
   </section>
 </template>
 <script>
@@ -15,7 +16,7 @@
       return {
         title: "BakudanTalk",
         topic: "",
-        // image_src: require("../assets/bakuhatsu.gif"),
+        image_src: require("../assets/bakuhatsu.gif"),
         image_src1: require("../assets/bakudan.png"),
         test: require("../assets/bakudan.png"),
       };
@@ -23,23 +24,23 @@
     methods: {
       async countUp() {
         this.$store.commit("counter/countUp");
-        // if (this.$store.state.counter.counter % 15 === 0) {
-        //   this.topic = "hogehoge";
-        //   return
-        // console.log("15の倍数を表示");
-        // }
-        // this.$router.push('/lucky')
+        if (this.$store.state.counter.counter % 15 === 0) {
+          this.topic = "hogehoge";
+        this.$router.push('/lucky')
+          return
+        console.log("15の倍数を表示");
+        }
       },
     },
     computed: {
       // test(){
       //   return this.$store.state.counter.counter % 15 === 0
       // }
-      fizzbuzz() {
-        return this.$store.state.counter.counter % 15 === 0
-        // this.topic = "hogehoge"
-        console.log("15の倍数を表示");
-      },
+      // fizzbuzz() {
+      //   return this.$store.state.counter.counter % 15 === 0
+      //   // this.topic = "hogehoge"
+      //   console.log("15の倍数を表示");
+      // },
     }
 
   };
