@@ -5,9 +5,6 @@
     <button @click="countUp" class="button">
       <img :src="image_src1" class="button">
     </button>
-    <!-- <h1 v-if="fizzbuzz">
-    <img :src="image_src">
-    </h1> -->
   </section>
 </template>
 <script>
