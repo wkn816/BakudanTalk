@@ -1,21 +1,21 @@
 <template>
-    <div>
-<h1>爆弾話をする</h1>
-        <!-- <img :src="image_src1" v-bind="attrs" v-on="on" class="button"> -->
-    </div>
+  <div>
+    <h1>爆弾話をする</h1>
+    <img :src="image_src" />
+  </div>
 </template>
 
 <script>
-
 export default {
   data() {
     return {
-      // image_src: require("../assets/bakuhatsu.gif"),
+      image_src: true,
     };
   },
-  components: {
-  },
-  module() {
-  }
+  async fetch(){
+    this.image_src = require("../assets/bakuhatsu.gif")
+      setTimeout(() => {this.image_src = false;}, 4000);
+      // setTimeoutで3000ms後にshowをfalseにする
+    }
 };
 </script>
