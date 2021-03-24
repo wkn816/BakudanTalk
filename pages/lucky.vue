@@ -9,20 +9,13 @@
 export default {
   data() {
     return {
-      image_src: require("../assets/bakuhatsu.gif"),
-      // image_src: ""
+      image_src: true,
     };
   },
-  components: {},
-  module() {},
-  methods: {},
-  async fetch() {
-    var fn = function() {
-      this.image_src = "";
-      console.log("3秒経過しました");
-    };
-    var tm = 3000;
-    setTimeout(fn, tm);
-  }
+  async fetch(){
+    this.image_src = require("../assets/bakuhatsu.gif")
+      setTimeout(() => {this.image_src = false;}, 4000);
+      // setTimeoutで3000ms後にshowをfalseにする
+    }
 };
 </script>
