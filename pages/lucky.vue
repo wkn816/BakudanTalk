@@ -25,6 +25,8 @@ export default {
     const messages = ['あああ','いいい','ううう'];
     const messageNo = Math.floor( Math.random() * messages.length);
     console.log(messages[messageNo]);
+    console.log(messageNo);
+    return this.messages = messages[messageNo]
     }
 };
 </script>
