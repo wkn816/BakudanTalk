@@ -4,7 +4,7 @@
     <img :src="image_src" />
     <v-card>
       <h1>Talkする</h1>
-      {{ messages }}
+      {{ test }}
     </v-card>
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       image_src: true,
-      messages: "",
+      test: "",
     };
   },
   async fetch(){
@@ -34,7 +34,15 @@ export default {
     const messageNo = Math.floor( Math.random() * messages.length);
     console.log(messages[messageNo]);
     console.log(messageNo);
-    return this.messages = messages[messageNo]
+    const test = messages[messageNo];
+    console.log(test);
+    return this.test = test
+      // setTimeout(() => {this.test = true;}, 4000);
+      // return this.test =test
+  //   setTimeout(function(){
+  //   // alert(test);
+  //   {this.test = true;}
+  // }, 3000);
     }
 };
 </script>
