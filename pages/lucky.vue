@@ -5,6 +5,7 @@
     <v-card>
       <h1>Talkする</h1>
       {{ test }}
+      <v-btn to="/" nuxt>もう一度</v-btn>
     </v-card>
   </div>
 </template>
@@ -37,12 +38,6 @@ export default {
     const test = messages[messageNo];
     console.log(test);
     return this.test = test
-      // setTimeout(() => {this.test = true;}, 4000);
-      // return this.test =test
-  //   setTimeout(function(){
-  //   // alert(test);
-  //   {this.test = true;}
-  // }, 3000);
-    }
+    },
 };
 </script>
