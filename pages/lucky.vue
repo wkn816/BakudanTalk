@@ -5,6 +5,7 @@
     <v-card>
       <h1>Talkする</h1>
       {{ test }}
+      {{ test2 }}
       <v-btn to="/" nuxt>もう一度</v-btn>
     </v-card>
   </div>
@@ -16,6 +17,7 @@ export default {
     return {
       image_src: true,
       test: "",
+      test2: "",
     };
   },
   async fetch(){
@@ -36,8 +38,9 @@ export default {
     console.log(messages[messageNo]);
     console.log(messageNo);
     const test = messages[messageNo];
+    setTimeout(() => {this.test = test;}, 4000);
     console.log(test);
-    return this.test = test
+    // return this.test = test
     },
 };
 </script>
