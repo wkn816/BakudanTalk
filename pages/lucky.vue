@@ -3,7 +3,7 @@
     <h1>爆発</h1>
     <img :src="image_src" />
     <v-card>
-      <h1>Talkする</h1>
+      <h1>Let's Bakudan talk</h1>
       {{ test }}
       {{ test2 }}
       <v-btn to="/" nuxt>もう一度</v-btn>
