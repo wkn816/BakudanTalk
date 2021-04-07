@@ -2,11 +2,11 @@
   <div>
     <h1>爆発</h1>
     <img :src="image_src" />
-    <v-card>
-      <h1>Let's Bakudan talk</h1>
-      {{ test }}
-      {{ test2 }}
-      <v-btn to="/" nuxt>もう一度</v-btn>
+    <v-card v-if="test">
+      <v-card-title>Let's Bakudan talk</v-card-title>
+        <v-card-text>{{ test }}</v-card-text>
+        <v-card-text>{{ test2 }}</v-card-text>
+        <v-btn to="/" nuxt>もう一度</v-btn>
     </v-card>
   </div>
 </template>
