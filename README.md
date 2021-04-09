@@ -1,6 +1,5 @@
 # Bomber　【開発中】
 
-<h2 align="center">Frontend</h2>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71075728/114141940-3c695680-994d-11eb-8fb0-4b3f41dd8496.png" height="500px;" /></a>
 </p>
