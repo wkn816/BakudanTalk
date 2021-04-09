@@ -21,8 +21,8 @@ export default {
     };
   },
   async fetch(){
-    this.image_src = require("../assets/bakuhatsu.gif")
-      setTimeout(() => {this.image_src = false;}, 4000);
+    this.image_src = require("../assets/bakuhatsu3.GIF")
+      setTimeout(() => {this.image_src = false;}, 2800);
       // setTimeoutで3000ms後にshowをfalseにする
 
     const messages = ['今の趣味にハマったきっかけは？',
@@ -38,7 +38,7 @@ export default {
     console.log(messages[messageNo]);
     console.log(messageNo);
     const test = messages[messageNo];
-    setTimeout(() => {this.test = test;}, 4000);
+    setTimeout(() => {this.test = test;}, 2780);
     console.log(test);
     // return this.test = test
     },
