@@ -26,17 +26,6 @@
         }
       },
     },
-    computed: {
-      // test(){
-      //   return this.$store.state.counter.counter % 15 === 0
-      // }
-      // fizzbuzz() {
-      //   return this.$store.state.counter.counter % 15 === 0
-      //   // this.topic = "hogehoge"
-      //   console.log("15の倍数を表示");
-      // },
-    }
-
   };
 
 </script>
