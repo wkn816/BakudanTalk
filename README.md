@@ -1,5 +1,4 @@
 # Bomber　【開発中】
-![introduction](https://user-images.githubusercontent.com/71075728/109951384-f8b57880-7d20-11eb-85b2-90225c24a175.gif)
 
 <h2 align="center">Frontend</h2>
 <p align="center">
