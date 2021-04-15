@@ -2,16 +2,26 @@
   <div>
     <v-container>
       <v-row>
-        <v-col cols="12" offset-sm="1" sm="4" offset-md="4" md="4" offset-lg="3" lg="6">
+        <v-col cols="12" offset-sm="1" sm="4" offset-md="2" md="8">
             <img :src="image_src" />
             <v-card v-if="test">
-              <v-card-title class="card-title">Let's Bakudan talk</v-card-title>
-              <v-card-text>{{ test }}</v-card-text>
-              <v-card-text>{{ test2 }}</v-card-text>
-              <v-btn to="/" nuxt>もう一度</v-btn>
+              <v-card-title primary-title class="justify-center">Let's Bakudan talk</v-card-title>
+              <v-card-text>
+                <p class="theme-text">{{ test }}</p>
+              </v-card-text>
+              <v-card-text>
+                <p class="theme-text">{{ test2 }}</p>
+              </v-card-text>
             </v-card>
         </v-col>
       </v-row>
+
+      <v-row>
+        <v-col cols="12" offset-sm="1" sm="4" offset-md="5" md="4">
+              <v-btn v-if="test" to="/" nuxt>もう一度</v-btn>
+        </v-col>
+      </v-row>
+
     </v-container>
   </div>
 </template>
@@ -57,13 +67,8 @@
 </script>
 
 <style>
-.card-title{
+.theme-text{
   text-align: center;
-}
-.v-card-title{
-  text-align: center;
-}
-.v-card__title{
-  text-align: center;
+  font-size: 20px;
 }
 </style>
