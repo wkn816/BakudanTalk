@@ -98,20 +98,22 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'Top',
           to: '/'
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
+          title: 'How to use',
           to: '/inspire'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'BakudanTalk'
+      title: 'Bomber'
     }
   }
 }
 </script>
+<style lang="scss" scoped>
+</style>
