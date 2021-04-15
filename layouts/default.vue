@@ -104,7 +104,7 @@ export default {
         {
           icon: 'mdi-chart-bubble',
           title: 'How to use',
-          to: '/inspire'
+          to: '/about'
         }
       ],
       miniVariant: false,
