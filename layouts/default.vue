@@ -97,12 +97,12 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-apps',
+          icon: 'mdi-bomb',
           title: 'Top',
           to: '/'
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-fire',
           title: 'How to use',
           to: '/about'
         }
