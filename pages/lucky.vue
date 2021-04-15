@@ -5,12 +5,9 @@
         <v-col cols="12" offset-sm="1" sm="4" offset-md="2" md="8">
             <img :src="image_src" />
             <v-card v-if="test">
-              <v-card-title primary-title class="justify-center">Let's Bakudan talk</v-card-title>
+              <v-card-title class="justify-center">Let's Bakudan talk</v-card-title>
               <v-card-text>
                 <p class="theme-text">{{ test }}</p>
-              </v-card-text>
-              <v-card-text>
-                <p class="theme-text">{{ test2 }}</p>
               </v-card-text>
             </v-card>
         </v-col>
@@ -18,7 +15,11 @@
 
       <v-row>
         <v-col cols="12" offset-sm="1" sm="4" offset-md="5" md="4">
-              <v-btn v-if="test" to="/" nuxt>もう一度</v-btn>
+              <v-btn v-if="test" to="/" nuxt>
+              <v-icon large color=#e53170>
+            mdi-restore
+          </v-icon>
+              REPLAY</v-btn>
         </v-col>
       </v-row>
 
