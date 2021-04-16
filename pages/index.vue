@@ -1,4 +1,4 @@
-<template>
+<template class="test">
   <section class="container">
     <div>
       <Counter></Counter>
@@ -25,3 +25,5 @@ export default {
   }
 };
 </script>
+<style>
+</style>
