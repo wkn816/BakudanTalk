@@ -3,8 +3,8 @@
     <v-container>
       <v-row>
         <v-col cols="12" offset-sm="1" sm="4" offset-md="2" md="8">
-            <img :src="image_src" />
-            <v-card v-if="test">
+            <img :src="image_src" class="bakuhatsu-gif"/>
+            <v-card v-if="test" color=#2e2f3e shaped class="ma-2">
               <v-card-title class="justify-center">Let's Bakudan talk</v-card-title>
               <v-card-text>
                 <p class="theme-text">{{ test }}</p>
@@ -15,11 +15,11 @@
 
       <v-row>
         <v-col cols="12" offset-sm="1" sm="4" offset-md="5" md="4">
-              <v-btn v-if="test" to="/" nuxt>
-              <v-icon large color=#e53170>
-            mdi-restore
-          </v-icon>
-              REPLAY</v-btn>
+          <v-hover v-slot:default="{ hover }">
+              <v-btn v-if="test" to="/" nuxt color=#ff8906>
+              <v-icon v-text="hover ? 'mdi-restore' : 'mdi-refresh'"></v-icon>REPLAY
+              </v-btn>
+              </v-hover>
         </v-col>
       </v-row>
 
@@ -67,9 +67,24 @@
 
 </script>
 
-<style>
+<style lang="scss">
 .theme-text{
   text-align: center;
   font-size: 20px;
+  color: #fffffe;
+}
+.bakuhatsu-gif{
+  text-align: center;
+  width: 100%;
+}
+.justify-center{
+  font-size: 25px;
+    color: #e53170;
+}
+.v-btn{
+  &:hover {
+      transform: scale(1.04);
+      transition-duration: 40ms;
+    }
 }
 </style>
