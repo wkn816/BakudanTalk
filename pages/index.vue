@@ -18,6 +18,9 @@ export default {
   components: {
     Counter
   },
+  created() {
+     console.log("API_KEY:", process.env.API_KEY);  //<= これ追加
+  },
   module() {
     // if (this.$store.state.counter.counter % 15 === 0) {
     //   console.log("15の倍数を表示");
