@@ -18,7 +18,7 @@
   export default {
     data: function () {
       return {
-        title: "BakudanTalk",
+        title: "Bomber",
         image_src: require("../assets/bakuhatsu.gif"),
         bakudan: require("../assets/bakudan.png"),
       };
