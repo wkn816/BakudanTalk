@@ -6,6 +6,8 @@
               <v-card-title class="justify-center">Bomberの使い方</v-card-title>
               <v-card-text class="parent">
                 <p>１〜３回　好きな回数爆弾をクリック！！</p>
+                <p>ランダムで爆弾が爆発！！</p>
+                <p>爆発させてしまった方は、表示されたお題についてお話ししましょう</p>
               </v-card-text>
             </v-card>
         </v-col>
