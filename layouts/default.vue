@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app dark class="bomber-all">
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -92,4 +92,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.bomber-all{
+  background-color: #0f0e17;
+    background-size: 100%;
+    color: #fffffe;
+}
 </style>
