@@ -92,9 +92,31 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+
+$pc: 1024px; // PC
+$tab: 680px; // タブレット
+$sp: 480px;  // スマホ
+
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
 .bomber-all{
   background-color: #0f0e17;
     background-size: 100%;
     color: #fffffe;
+  text-align: center;
 }
 </style>
