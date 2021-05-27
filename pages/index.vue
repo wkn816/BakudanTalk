@@ -1,32 +1,34 @@
-<template class="test">
-  <section class="container">
-    <div>
-      <Counter></Counter>
-    </div>
-  </section>
+<template>
+<section>
+<v-container>
+      <v-row>
+        <v-col cols="12" offset-sm="1" sm="4" offset-md="2" md="8">
+            <img :src="startlogo" class="start-logo">
+        </v-col>
+      </v-row>
+    </v-container>
+</section>
 </template>
 
 <script>
-import Counter from "~/components/Counter.vue";
 
 export default {
   data() {
     return {
-      count: "",
+      startlogo: require("../assets/start-logo.png")
     };
   },
   components: {
-    Counter
   },
   created() {
-     console.log("API_KEY:", process.env.API_KEY);  //<= これ追加
   },
   module() {
-    // if (this.$store.state.counter.counter % 15 === 0) {
-    //   console.log("15の倍数を表示");
-    // }
   }
 };
 </script>
 <style>
+.start-logo{
+  width: 60%;
+}
+
 </style>
