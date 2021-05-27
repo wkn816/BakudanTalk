@@ -118,5 +118,6 @@ $sp: 480px;  // スマホ
   color: #fffffe;
   text-align: center;
   background-color: #0f0e17;
+  font-family: 'HogeHogeFont';
 }
 </style>
