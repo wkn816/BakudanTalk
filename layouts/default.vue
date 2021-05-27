@@ -1,5 +1,5 @@
 <template>
-  <v-app dark class="bomber-all">
+  <v-app class="bomber-all">
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -114,9 +114,9 @@ $sp: 480px;  // スマホ
 }
 
 .bomber-all{
-  background-color: #0f0e17;
-    background-size: 100%;
-    color: #fffffe;
+  background-size: 100%;
+  color: #fffffe;
   text-align: center;
+  background-color: #0f0e17;
 }
 </style>
