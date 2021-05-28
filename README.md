@@ -32,6 +32,5 @@ Node: 14.15.0
 @babel/core:7.13.8  
 vuex:3.6.2  
 vuetify:1.11.3
-jest:26.6.3
 
 
