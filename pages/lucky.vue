@@ -5,7 +5,7 @@
         <v-col cols="12" offset-sm="1" sm="4" offset-md="2" md="8">
             <img :src="image_src" class="bakuhatsu-gif"/>
             <v-card v-if="test" color=#2e2f3e shaped class="d-flex flex-column" height="400">
-              <v-card-title class="justify-center">Let's Bakudan talk</v-card-title>
+              <v-card-title class="justify-center">Let's BOMBER talk</v-card-title>
               <v-card-text class="parent">
                 <p class="theme-text">{{ test }}</p>
               </v-card-text>
@@ -16,8 +16,9 @@
       <v-row>
         <v-col cols="12" sm="12" offset-md="4" md="4">
           <v-hover v-slot:default="{ hover }">
-              <v-btn v-if="test" to="/" nuxt color=#ff8906 block>
-              <v-icon v-text="hover ? 'mdi-restore' : 'mdi-refresh'"></v-icon>REPLAY
+              <v-btn v-if="test" to="/top" nuxt color=#ff8906 block height="50" :ripple="{ center: true }">
+              <v-icon v-text="hover ? 'mdi-restore' : 'mdi-refresh'"></v-icon>
+              <div class="replay-text">REPLAY</div>
               </v-btn>
               </v-hover>
         </v-col>
@@ -78,7 +79,7 @@ position: absolute;}
   width: 100%;
 }
 .justify-center{
-  font-size: 25px;
+  font-size: 45px;
     color: #e53170;
 }
 .v-btn{
@@ -97,5 +98,8 @@ position: absolute;}
   top: 50%;
   left: 50%;
   transform : translate(-50%,-50%);
+}
+.replay-text{
+  font-size: 30px;
 }
 </style>
