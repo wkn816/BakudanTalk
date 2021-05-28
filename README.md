@@ -1,5 +1,5 @@
 
-<h2 align="center">Bomber</h2>
+<h2 align="center">**BOMBER**</h2>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71075728/119965462-44588500-bfe5-11eb-9a57-4cc4a5d61165.png" height="500px;" /></a>
 </p>
