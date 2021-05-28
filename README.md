@@ -4,7 +4,7 @@
   <a href="https://bomber-48db7.web.app/"><img src="https://user-images.githubusercontent.com/71075728/119965462-44588500-bfe5-11eb-9a57-4cc4a5d61165.png" height="500px;" /></a>
 </p>
  
- <h2 align="center">Frontend</h2>
+ <h2 align="center"></h2>
 <p align="center">
   <a href="https://vuetifyjs.com/ja/"><img src="https://user-images.githubusercontent.com/71075728/109930753-5939bb00-7d0b-11eb-8ca4-2538ea8cb2a0.png" height="70px;" /></a>
   <a href="https://ja.nuxtjs.org/"><img src="https://user-images.githubusercontent.com/71075728/109931448-365bd680-7d0c-11eb-8a7f-161d364ecf49.png" height="70px;" /></a>
