@@ -32,7 +32,6 @@
 - OS：Linux(CentOS)  
 - 環境  
 npm 6.14.8  
-Node: 14.15.0   
 @nuxt/core:2.15.2  
 @babel/core:7.13.8  
 vuex:3.6.2  
