@@ -7,7 +7,7 @@
         </v-col>
         <v-col cols="12" offset-sm="2" sm="8" offset-md="4" md="4">
             <v-hover v-slot:default="{ hover }">
-              <v-btn class="topbtn" to="/top" nuxt block color=#7f5af0 height="80" :ripple="{ center: true }">
+              <v-btn class="topbtn" to="/play" nuxt block color=#7f5af0 height="80" :ripple="{ center: true }">
               <v-icon large v-text="hover ? 'mdi-arrow-left-thick' : ''"></v-icon>
               <div class="top-text">START</div>
               </v-btn>
