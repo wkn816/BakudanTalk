@@ -16,7 +16,7 @@
       <v-row>
         <v-col cols="12" sm="12" offset-md="4" md="4">
           <v-hover v-slot:default="{ hover }">
-              <v-btn v-if="test" to="/top" nuxt color=#ff8906 block height="50" :ripple="{ center: true }">
+              <v-btn v-if="test" to="/play" nuxt color=#ff8906 block height="50" :ripple="{ center: true }">
               <v-icon v-text="hover ? 'mdi-restore' : 'mdi-refresh'"></v-icon>
               <div class="replay-text">REPLAY</div>
               </v-btn>
