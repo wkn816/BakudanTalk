@@ -1,10 +1,15 @@
 
-<h2 align="center">Bomber</h2>
+<h2 align="center">**BOMBER**</h2>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71075728/114141940-3c695680-994d-11eb-8fb0-4b3f41dd8496.png" height="500px;" /></a>
+  <a href="https://bomber-48db7.web.app/"><img src="https://user-images.githubusercontent.com/71075728/119965462-44588500-bfe5-11eb-9a57-4cc4a5d61165.png" height="500px;" /></a>
 </p>
  
- 
+ <h2 align="center"></h2>
+<p align="center">
+  <a href="https://vuetifyjs.com/ja/"><img src="https://user-images.githubusercontent.com/71075728/109930753-5939bb00-7d0b-11eb-8ca4-2538ea8cb2a0.png" height="70px;" /></a>
+  <a href="https://ja.nuxtjs.org/"><img src="https://user-images.githubusercontent.com/71075728/109931448-365bd680-7d0c-11eb-8a7f-161d364ecf49.png" height="70px;" /></a>
+  <a href="https://firebase.google.com/"><img src="https://user-images.githubusercontent.com/71075728/109931051-b2a1ea00-7d0b-11eb-884f-b337fe241a2c.png" height="70px;" /></a></p>
+  
 ## :pencil2:概要
 合コン・パーティー・飲み会で盛り上がる！<br>
 大人数でボタンを順番に押して爆弾を爆発させてしまった人が表示された爆弾発言をするゲームアプリです。
@@ -27,11 +32,9 @@
 - OS：Linux(CentOS)  
 - 環境  
 npm 6.14.8  
-Node: 14.15.0   
 @nuxt/core:2.15.2  
 @babel/core:7.13.8  
 vuex:3.6.2  
 vuetify:1.11.3
-jest:26.6.3
 
 
