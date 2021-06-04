@@ -1,13 +1,15 @@
-<template class="test">
+<template>
     <v-container>
       <v-row>
         <v-col cols="12" offset-sm="1" sm="4" offset-md="2" md="8">
-            <v-card color=#2e2f3e shaped class="d-flex flex-column" height="400">
-              <v-card-title class="justify-center">Bomberの使い方</v-card-title>
+            <v-card color=#2e2f3e outlined tile class="about-card">
+              <v-card-title primary-title class="justify-center">遊びかた
+              </v-card-title>
               <v-card-text class="parent">
-                <p>１〜３回　好きな回数爆弾をクリック！！</p>
-                <p>ランダムで爆弾が爆発！！</p>
-                <p>爆発させてしまった方は、表示されたお題についてお話ししましょう!</p>
+                <p>①１〜３回 好きな回数爆弾をクリック！！</p>
+                <p>②ランダムで爆弾が爆発！！</p>
+                <p>③爆発させてしまった方は、表示されたお題について暴露話し！</p>
+                <p>④リプレイボタンを押してもう一周♪</p>
               </v-card-text>
             </v-card>
         </v-col>
@@ -18,4 +20,13 @@
 <script>
 </script>
 <style>
+
+p {
+  text-align: left;
+    font-size: 16px;
+    line-height: 2.0em;
+}
+.about-card{
+margin-top: 100px;
+}
 </style>
