@@ -10,7 +10,11 @@
                 <p>②ランダムで爆弾が爆発！！</p>
                 <p>③爆発させてしまった方は、表示されたお題について暴露話し！</p>
                 <p>④リプレイボタンを押してもう一周♪</p>
-                <p>あの人の意外な一面が明らかになるかも・・・</p>
+                <p>
+                  <v-icon>mdi-emoticon-devil-outline</v-icon>
+                    あの人の意外な一面が明らかになるかも・・・
+                  <v-icon>mdi-emoticon-devil-outline</v-icon>
+                </p>
               </v-card-text>
             </v-card>
         </v-col>
