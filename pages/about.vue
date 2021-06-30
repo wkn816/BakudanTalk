@@ -6,19 +6,19 @@
               <v-card-title primary-title class="justify-center">遊びかた
               </v-card-title>
               <v-card-text>
-                <p class="parent">
+                <p>
                     <v-icon color="#fffffe">mdi-numeric-1-circle</v-icon>
                     １〜３回 好きな回数爆弾をクリック！！
                 </p>
-                <p class="parent">
+                <p>
                     <v-icon color="#fffffe">mdi-numeric-2-circle</v-icon>
                     ランダムで爆弾が爆発！！
                 </p>
-                <p class="parent">
+                <p>
                     <v-icon color="#fffffe">mdi-numeric-3-circle</v-icon>
                     爆発させてしまった方は、表示されたお題について暴露話し！
                 </p>
-                <p class="parent">
+                <p>
                     <v-icon color="#fffffe">mdi-numeric-4-circle</v-icon>
                     リプレイボタンを押してもう一周♪
                 </p>
