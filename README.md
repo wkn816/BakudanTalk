@@ -11,7 +11,7 @@
   <a href="https://firebase.google.com/"><img src="https://user-images.githubusercontent.com/71075728/109931051-b2a1ea00-7d0b-11eb-884f-b337fe241a2c.png" height="70px;" /></a></p>
   
 ## :pencil2:概要
-合コン・パーティー・飲み会で盛り上がる！<br>
+パーティー・飲み会で盛り上がる！<br>
 大人数でボタンを順番に押して爆弾を爆発させてしまった人が表示された爆弾発言をするゲームアプリです。
 
 ### :globe_with_meridians:APP URL
